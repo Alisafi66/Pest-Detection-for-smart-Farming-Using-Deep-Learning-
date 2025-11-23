@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inference_on_a_image.py -c groundingdino/config/GroundingDINO_SwinB_cfg.py -p weights/groundingdino_swinb_cogcoor.pth -i pest.jpg -o out -t "pest"
